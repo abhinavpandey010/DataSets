@@ -20,6 +20,7 @@ TOP_20_SYMBOLS = [
 
 
 for symbol in TOP_20_SYMBOLS:
+    print(f"Fetching data for {symbol}...")
     params = {
         "function":"TIME_SERIES_DAILY",
         "symbol":symbol,
